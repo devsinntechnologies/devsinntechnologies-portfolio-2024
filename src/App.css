@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", "poppins", "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #39b1fc;
+  --secondary: #42da8a;
+  --textColor: #fff;
+}
+
+body {
+  overflow-x: hidden !important;
+  background-color: #ecebeb;
+}
+
+a,
+ul,
+li,
+button {
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
